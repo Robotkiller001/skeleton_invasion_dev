@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="no"?>
+
+<faction>
+	<starting-resources>
+		<resource name="gold" amount="200"/>
+		<resource name="wood" amount="200"/>
+		<resource name="food" amount="0"/>
+	</starting-resources>
+	<starting-units>
+		<unit name="pyramid" amount="1"/>
+		<unit name="skeleton_worker" amount="4"/>
+		<unit name="obelisk" amount="0"/>
+	</starting-units>
+	<music value="true" path="music/asak-jadeflange.ogg"/>
+	<flat-particle-positions value="true"/>
+	<ai-behavior>
+		<worker-units>
+			<unit name="skeleton_worker" minimum="8"/>
+		</worker-units>
+		<warrior-units>
+			<unit name="skeleton" minimum="1"/>
+		</warrior-units>
+		<resource-producer-units/>
+		<building-units>
+			<unit name="obelisk" minimum="15"/>
+		</building-units>
+		<upgrades/>
+		<static-values>
+			<static type-name="MinMinWarriorsExpandCpuUltra" value="10"/>
+			<static type-name="MinMinWarriorsExpandCpuMega" value="20"/>
+		</static-values>
+	</ai-behavior>
+</faction>

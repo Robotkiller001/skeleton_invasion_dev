@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+
+<faction>
+	<starting-resources>
+	</starting-resources>
+	<starting-units>
+		<unit name="initiate" amount="1"/>
+	</starting-units>
+	<music value="true" path="music/music_ants.ogg"/>
+	<flat-particle-positions value="true"/>
+</faction>
